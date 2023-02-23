@@ -22,3 +22,7 @@ cat all2gether.txt
 mv all2gether.txt humanfriends.txt
 
 cat humanfriends.txt 
+
+2. Создать директорию, переместить файл туда.
+
+mkdir Animals && mv humanfriends.txt Animals/
