@@ -26,3 +26,13 @@ cat humanfriends.txt
 2. Создать директорию, переместить файл туда.
 
 mkdir Animals && mv humanfriends.txt Animals/
+
+3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
+
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb 
+
+dpkg -i mysql-apt-config_*_all.deb
+
+apt update
+
+apt install -y mysql-server mysql-client
