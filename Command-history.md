@@ -48,3 +48,7 @@ apt-get -y -f install
 dpkg -r zoom
 
 apt-get purge -y zoom
+
+5. Выложить историю команд в терминале ubuntu
+
+Вся итория команд приведена выше.
