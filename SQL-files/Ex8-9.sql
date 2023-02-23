@@ -142,4 +142,4 @@ INSERT Dog(Animal_type_id, Name, BirthDay, Command_id) VALUES
 INSERT Hamster(Animal_type_id, Name, BirthDay, Command_id) VALUES
 (3, 'Хомяк1', '2022-02-28', 4),
 (3, 'Хомяк2', '2016-04-07', 4),
-(3, 'Хомяк2', '2016-07-17', 4);
+(3, 'Хомяк3', '2016-07-17', 4);
