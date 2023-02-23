@@ -18,8 +18,6 @@ CREATE TABLE AllTogether(
     FOREIGN KEY (Command_id) REFERENCES Command(Command_id)
 );
 
-SELECT Animal_type_id, a.Type_id, Name, BirthDay, Command_id FROM Horse as c JOIN Pets as p ON c.Animal_type_id = p.Type_id JOIN Animals as a ON a.Type_id = p.Type_id;
-
 INSERT INTO AllTogether (Animal_type_id, Pet_type_id, Name, BirthDay, Command_id) 
 SELECT Animal_type_id, p.Animals_id, Name, BirthDay, Command_id FROM Horse as c JOIN Sumpters as p ON c.Animal_type_id = p.Type_id
 UNION
