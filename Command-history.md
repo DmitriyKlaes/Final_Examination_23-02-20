@@ -36,3 +36,15 @@ dpkg -i mysql-apt-config_*_all.deb
 apt update
 
 apt install -y mysql-server mysql-client
+
+4. Установить и удалить deb-пакет с помощью dpkg.
+
+wget https://zoom.us/client/latest/zoom_amd64.deb
+
+dpkg -i zoom_amd64.deb
+
+apt-get -y -f install
+
+dpkg -r zoom
+
+apt-get purge -y zoom
